@@ -22,6 +22,7 @@ namespace LesserApp.Controllers
         {
             return PartialView("~/Views/Partials/SiteLayout/_TitleControls.cshtml");
         }
+        ///This is LesserApp
         /// <summary>
         /// Renders the top navigation partial
         /// </summary>
