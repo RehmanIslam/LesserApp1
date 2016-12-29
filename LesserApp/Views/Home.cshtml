@@ -1,0 +1,9 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	Layout = "WebBase.cshtml";
+}
+@{ Html.RenderAction("RenderIntro", "HomeSurface"); }
+@{ Html.RenderAction("RenderFeature", "HomeSurface"); }
+@{ Html.RenderAction("RenderServices", "HomeSurface"); }
+@{ Html.RenderAction("RenderBlog", "HomeSurface"); }
+@{Html.RenderAction("RenderClients", "HomeSurface");}
